@@ -37,9 +37,8 @@
             this.lblAppTitle = new System.Windows.Forms.Label();
             this.pnlBackground.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // lblNameLabel
-            // 
+
+            //Name Label
             this.lblNameLabel.AutoSize = true;
             this.lblNameLabel.BackColor = System.Drawing.Color.Transparent;
             this.lblNameLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -49,9 +48,8 @@
             this.lblNameLabel.Size = new System.Drawing.Size(54, 20);
             this.lblNameLabel.TabIndex = 0;
             this.lblNameLabel.Text = "Name:";
-            // 
-            // txtName
-            // 
+
+            //Name TextBox
             this.txtName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(45)))), ((int)(((byte)(35)))));
             this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtName.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -60,9 +58,8 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(420, 27);
             this.txtName.TabIndex = 1;
-            // 
-            // lblGradesTitle
-            // 
+
+            //Grades Title
             this.lblGradesTitle.AutoSize = true;
             this.lblGradesTitle.BackColor = System.Drawing.Color.Transparent;
             this.lblGradesTitle.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -72,9 +69,8 @@
             this.lblGradesTitle.Size = new System.Drawing.Size(71, 25);
             this.lblGradesTitle.TabIndex = 2;
             this.lblGradesTitle.Text = "Grades";
-            // 
-            // lblEnglish
-            // 
+
+            //English Label
             this.lblEnglish.AutoSize = true;
             this.lblEnglish.BackColor = System.Drawing.Color.Transparent;
             this.lblEnglish.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -84,9 +80,8 @@
             this.lblEnglish.Size = new System.Drawing.Size(56, 20);
             this.lblEnglish.TabIndex = 3;
             this.lblEnglish.Text = "English";
-            // 
-            // txtEnglish
-            // 
+
+            //English TextBox
             this.txtEnglish.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(45)))), ((int)(((byte)(35)))));
             this.txtEnglish.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtEnglish.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -96,9 +91,8 @@
             this.txtEnglish.Size = new System.Drawing.Size(90, 27);
             this.txtEnglish.TabIndex = 4;
             this.txtEnglish.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // lblMath
-            // 
+
+            //Math Label
             this.lblMath.AutoSize = true;
             this.lblMath.BackColor = System.Drawing.Color.Transparent;
             this.lblMath.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -108,9 +102,8 @@
             this.lblMath.Size = new System.Drawing.Size(43, 20);
             this.lblMath.TabIndex = 5;
             this.lblMath.Text = "Math";
-            // 
-            // txtMath
-            // 
+
+            //Math TextBox
             this.txtMath.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(45)))), ((int)(((byte)(35)))));
             this.txtMath.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtMath.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -120,9 +113,8 @@
             this.txtMath.Size = new System.Drawing.Size(90, 27);
             this.txtMath.TabIndex = 6;
             this.txtMath.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // lblScience
-            // 
+
+            //Science Label
             this.lblScience.AutoSize = true;
             this.lblScience.BackColor = System.Drawing.Color.Transparent;
             this.lblScience.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -132,9 +124,8 @@
             this.lblScience.Size = new System.Drawing.Size(59, 20);
             this.lblScience.TabIndex = 7;
             this.lblScience.Text = "Science";
-            // 
-            // txtScience
-            // 
+
+            //Science TextBox
             this.txtScience.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(45)))), ((int)(((byte)(35)))));
             this.txtScience.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtScience.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -144,9 +135,8 @@
             this.txtScience.Size = new System.Drawing.Size(90, 27);
             this.txtScience.TabIndex = 8;
             this.txtScience.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // lblFilipino
-            // 
+
+            //Filipino Label
             this.lblFilipino.AutoSize = true;
             this.lblFilipino.BackColor = System.Drawing.Color.Transparent;
             this.lblFilipino.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -156,9 +146,8 @@
             this.lblFilipino.Size = new System.Drawing.Size(58, 20);
             this.lblFilipino.TabIndex = 9;
             this.lblFilipino.Text = "Filipino";
-            // 
-            // txtFilipino
-            // 
+
+            //Filipino TextBox
             this.txtFilipino.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(45)))), ((int)(((byte)(35)))));
             this.txtFilipino.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtFilipino.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -168,9 +157,8 @@
             this.txtFilipino.Size = new System.Drawing.Size(90, 27);
             this.txtFilipino.TabIndex = 10;
             this.txtFilipino.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // lblHistory
-            // 
+
+            //History Label
             this.lblHistory.AutoSize = true;
             this.lblHistory.BackColor = System.Drawing.Color.Transparent;
             this.lblHistory.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -180,9 +168,8 @@
             this.lblHistory.Size = new System.Drawing.Size(56, 20);
             this.lblHistory.TabIndex = 11;
             this.lblHistory.Text = "History";
-            // 
-            // txtHistory
-            // 
+
+            //History TextBox
             this.txtHistory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(45)))), ((int)(((byte)(35)))));
             this.txtHistory.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtHistory.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -192,9 +179,8 @@
             this.txtHistory.Size = new System.Drawing.Size(90, 27);
             this.txtHistory.TabIndex = 12;
             this.txtHistory.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btnGenerate
-            // 
+
+            //Generate Button
             this.btnGenerate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(90)))), ((int)(((byte)(65)))));
             this.btnGenerate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGenerate.FlatAppearance.BorderSize = 0;
@@ -210,9 +196,8 @@
             this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             this.btnGenerate.MouseEnter += new System.EventHandler(this.btnGenerate_MouseEnter);
             this.btnGenerate.MouseLeave += new System.EventHandler(this.btnGenerate_MouseLeave);
-            // 
-            // lblResult
-            // 
+
+            //Result Label
             this.lblResult.BackColor = System.Drawing.Color.Transparent;
             this.lblResult.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResult.ForeColor = System.Drawing.Color.White;
@@ -221,9 +206,8 @@
             this.lblResult.Size = new System.Drawing.Size(300, 100);
             this.lblResult.TabIndex = 14;
             this.lblResult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pnlBackground
-            // 
+
+            //Background Panel
             this.pnlBackground.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(30)))), ((int)(((byte)(22)))));
             this.pnlBackground.Controls.Add(this.lblAppTitle);
             this.pnlBackground.Controls.Add(this.lblResult);
@@ -245,9 +229,8 @@
             this.pnlBackground.Name = "pnlBackground";
             this.pnlBackground.Size = new System.Drawing.Size(540, 440);
             this.pnlBackground.TabIndex = 15;
-            // 
-            // lblAppTitle
-            // 
+
+            //App Title
             this.lblAppTitle.AutoSize = true;
             this.lblAppTitle.BackColor = System.Drawing.Color.Transparent;
             this.lblAppTitle.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -257,9 +240,8 @@
             this.lblAppTitle.Size = new System.Drawing.Size(316, 32);
             this.lblAppTitle.TabIndex = 15;
             this.lblAppTitle.Text = "Student Grade Application";
-            // 
-            // Form1
-            // 
+
+            //Form1
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(15)))), ((int)(((byte)(12)))));
