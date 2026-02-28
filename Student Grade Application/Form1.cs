@@ -18,19 +18,6 @@ namespace Student_Grade_Application
             pnlBackground.BackColor = Color.FromArgb(200, 15, 30, 22);
         }
 
-        // Method to draw perfectly smooth rounded corners
-        private void MakeRounded(Control control, int radius)
-        {
-            GraphicsPath path = new GraphicsPath();
-            path.StartFigure();
-            path.AddArc(0, 0, radius, radius, 180, 90);
-            path.AddArc(control.Width - radius, 0, radius, radius, 270, 90);
-            path.AddArc(control.Width - radius, control.Height - radius, radius, radius, 0, 90);
-            path.AddArc(0, control.Height - radius, radius, radius, 90, 90);
-            path.CloseFigure();
-            control.Region = new Region(path);
-        }
-
         private void btnGenerate_Click(object sender, EventArgs e)
         {
             // Validation for empty name
@@ -55,8 +42,6 @@ namespace Student_Grade_Application
 
                 // Display results
                 lblResult.Text = $"The student {status}.\nThe general average of {txtName.Text} is {average:F2}.";
-
-                // Colors that pop on a dark background: Pale Green for pass, Soft Red for fail
                 lblResult.ForeColor = average >= 75.00 ? Color.FromArgb(160, 240, 160) : Color.FromArgb(255, 140, 140);
             }
             else
@@ -65,7 +50,6 @@ namespace Student_Grade_Application
             }
         }
 
-        // Hover effect for the button
         private void btnGenerate_MouseEnter(object sender, EventArgs e)
         {
             btnGenerate.BackColor = Color.FromArgb(60, 120, 85);
