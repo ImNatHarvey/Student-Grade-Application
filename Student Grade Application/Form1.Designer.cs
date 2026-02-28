@@ -2,13 +2,8 @@
 {
     partial class Form1
     {
-        
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,229 +15,286 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.title = new System.Windows.Forms.Label();
-            this.name = new System.Windows.Forms.Label();
-            this.textBoxName = new System.Windows.Forms.TextBox();
-            this.grades = new System.Windows.Forms.Label();
-            this.english = new System.Windows.Forms.Label();
-            this.math = new System.Windows.Forms.Label();
-            this.science = new System.Windows.Forms.Label();
-            this.filipino = new System.Windows.Forms.Label();
-            this.history = new System.Windows.Forms.Label();
-            this.textBoxEnglish = new System.Windows.Forms.TextBox();
-            this.textBoxMath = new System.Windows.Forms.TextBox();
-            this.textBoxScience = new System.Windows.Forms.TextBox();
-            this.textBoxFilipino = new System.Windows.Forms.TextBox();
-            this.textBoxHistory = new System.Windows.Forms.TextBox();
-            this.averageButton = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+            this.lblNameLabel = new System.Windows.Forms.Label();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.lblGradesTitle = new System.Windows.Forms.Label();
+            this.lblEnglish = new System.Windows.Forms.Label();
+            this.txtEnglish = new System.Windows.Forms.TextBox();
+            this.lblMath = new System.Windows.Forms.Label();
+            this.txtMath = new System.Windows.Forms.TextBox();
+            this.lblScience = new System.Windows.Forms.Label();
+            this.txtScience = new System.Windows.Forms.TextBox();
+            this.lblFilipino = new System.Windows.Forms.Label();
+            this.txtFilipino = new System.Windows.Forms.TextBox();
+            this.lblHistory = new System.Windows.Forms.Label();
+            this.txtHistory = new System.Windows.Forms.TextBox();
+            this.btnGenerate = new System.Windows.Forms.Button();
+            this.lblResult = new System.Windows.Forms.Label();
+            this.pnlBackground = new System.Windows.Forms.Panel();
+            this.lblAppTitle = new System.Windows.Forms.Label();
+            this.pnlBackground.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // lblNameLabel
             // 
-            this.panel1.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.averageButton);
-            this.panel1.Controls.Add(this.textBoxHistory);
-            this.panel1.Controls.Add(this.textBoxFilipino);
-            this.panel1.Controls.Add(this.textBoxScience);
-            this.panel1.Controls.Add(this.textBoxMath);
-            this.panel1.Controls.Add(this.textBoxEnglish);
-            this.panel1.Controls.Add(this.history);
-            this.panel1.Controls.Add(this.filipino);
-            this.panel1.Controls.Add(this.science);
-            this.panel1.Controls.Add(this.math);
-            this.panel1.Controls.Add(this.english);
-            this.panel1.Controls.Add(this.grades);
-            this.panel1.Controls.Add(this.textBoxName);
-            this.panel1.Controls.Add(this.name);
-            this.panel1.Controls.Add(this.title);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(164, 11);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(510, 419);
-            this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.lblNameLabel.AutoSize = true;
+            this.lblNameLabel.BackColor = System.Drawing.Color.Transparent;
+            this.lblNameLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(220)))), ((int)(((byte)(190)))));
+            this.lblNameLabel.Location = new System.Drawing.Point(30, 80);
+            this.lblNameLabel.Name = "lblNameLabel";
+            this.lblNameLabel.Size = new System.Drawing.Size(54, 20);
+            this.lblNameLabel.TabIndex = 0;
+            this.lblNameLabel.Text = "Name:";
             // 
-            // label1
+            // txtName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(190, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.txtName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(45)))), ((int)(((byte)(35)))));
+            this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtName.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.ForeColor = System.Drawing.Color.White;
+            this.txtName.Location = new System.Drawing.Point(90, 78);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(420, 27);
+            this.txtName.TabIndex = 1;
             // 
-            // title
+            // lblGradesTitle
             // 
-            this.title.AutoSize = true;
-            this.title.Location = new System.Drawing.Point(190, 19);
-            this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(131, 13);
-            this.title.TabIndex = 1;
-            this.title.Text = "Student Grade Application";
+            this.lblGradesTitle.AutoSize = true;
+            this.lblGradesTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblGradesTitle.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGradesTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(240)))), ((int)(((byte)(200)))));
+            this.lblGradesTitle.Location = new System.Drawing.Point(30, 125);
+            this.lblGradesTitle.Name = "lblGradesTitle";
+            this.lblGradesTitle.Size = new System.Drawing.Size(71, 25);
+            this.lblGradesTitle.TabIndex = 2;
+            this.lblGradesTitle.Text = "Grades";
             // 
-            // name
+            // lblEnglish
             // 
-            this.name.AutoSize = true;
-            this.name.Location = new System.Drawing.Point(29, 78);
-            this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(38, 13);
-            this.name.TabIndex = 2;
-            this.name.Text = "Name:";
+            this.lblEnglish.AutoSize = true;
+            this.lblEnglish.BackColor = System.Drawing.Color.Transparent;
+            this.lblEnglish.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEnglish.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(220)))), ((int)(((byte)(190)))));
+            this.lblEnglish.Location = new System.Drawing.Point(30, 165);
+            this.lblEnglish.Name = "lblEnglish";
+            this.lblEnglish.Size = new System.Drawing.Size(56, 20);
+            this.lblEnglish.TabIndex = 3;
+            this.lblEnglish.Text = "English";
             // 
-            // textBoxName
+            // txtEnglish
             // 
-            this.textBoxName.Location = new System.Drawing.Point(115, 75);
-            this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(100, 20);
-            this.textBoxName.TabIndex = 3;
+            this.txtEnglish.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(45)))), ((int)(((byte)(35)))));
+            this.txtEnglish.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtEnglish.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEnglish.ForeColor = System.Drawing.Color.White;
+            this.txtEnglish.Location = new System.Drawing.Point(110, 163);
+            this.txtEnglish.Name = "txtEnglish";
+            this.txtEnglish.Size = new System.Drawing.Size(90, 27);
+            this.txtEnglish.TabIndex = 4;
+            this.txtEnglish.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // grades
+            // lblMath
             // 
-            this.grades.AutoSize = true;
-            this.grades.Location = new System.Drawing.Point(32, 115);
-            this.grades.Name = "grades";
-            this.grades.Size = new System.Drawing.Size(41, 13);
-            this.grades.TabIndex = 4;
-            this.grades.Text = "Grades";
+            this.lblMath.AutoSize = true;
+            this.lblMath.BackColor = System.Drawing.Color.Transparent;
+            this.lblMath.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMath.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(220)))), ((int)(((byte)(190)))));
+            this.lblMath.Location = new System.Drawing.Point(30, 205);
+            this.lblMath.Name = "lblMath";
+            this.lblMath.Size = new System.Drawing.Size(43, 20);
+            this.lblMath.TabIndex = 5;
+            this.lblMath.Text = "Math";
             // 
-            // english
+            // txtMath
             // 
-            this.english.AutoSize = true;
-            this.english.Location = new System.Drawing.Point(32, 148);
-            this.english.Name = "english";
-            this.english.Size = new System.Drawing.Size(41, 13);
-            this.english.TabIndex = 5;
-            this.english.Text = "English";
+            this.txtMath.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(45)))), ((int)(((byte)(35)))));
+            this.txtMath.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtMath.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMath.ForeColor = System.Drawing.Color.White;
+            this.txtMath.Location = new System.Drawing.Point(110, 203);
+            this.txtMath.Name = "txtMath";
+            this.txtMath.Size = new System.Drawing.Size(90, 27);
+            this.txtMath.TabIndex = 6;
+            this.txtMath.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // math
+            // lblScience
             // 
-            this.math.AutoSize = true;
-            this.math.Location = new System.Drawing.Point(29, 178);
-            this.math.Name = "math";
-            this.math.Size = new System.Drawing.Size(31, 13);
-            this.math.TabIndex = 6;
-            this.math.Text = "Math";
+            this.lblScience.AutoSize = true;
+            this.lblScience.BackColor = System.Drawing.Color.Transparent;
+            this.lblScience.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScience.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(220)))), ((int)(((byte)(190)))));
+            this.lblScience.Location = new System.Drawing.Point(30, 245);
+            this.lblScience.Name = "lblScience";
+            this.lblScience.Size = new System.Drawing.Size(59, 20);
+            this.lblScience.TabIndex = 7;
+            this.lblScience.Text = "Science";
             // 
-            // science
+            // txtScience
             // 
-            this.science.AutoSize = true;
-            this.science.Location = new System.Drawing.Point(35, 208);
-            this.science.Name = "science";
-            this.science.Size = new System.Drawing.Size(46, 13);
-            this.science.TabIndex = 7;
-            this.science.Text = "Science";
+            this.txtScience.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(45)))), ((int)(((byte)(35)))));
+            this.txtScience.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtScience.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtScience.ForeColor = System.Drawing.Color.White;
+            this.txtScience.Location = new System.Drawing.Point(110, 243);
+            this.txtScience.Name = "txtScience";
+            this.txtScience.Size = new System.Drawing.Size(90, 27);
+            this.txtScience.TabIndex = 8;
+            this.txtScience.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // filipino
+            // lblFilipino
             // 
-            this.filipino.AutoSize = true;
-            this.filipino.Location = new System.Drawing.Point(38, 242);
-            this.filipino.Name = "filipino";
-            this.filipino.Size = new System.Drawing.Size(39, 13);
-            this.filipino.TabIndex = 8;
-            this.filipino.Text = "Filipino";
+            this.lblFilipino.AutoSize = true;
+            this.lblFilipino.BackColor = System.Drawing.Color.Transparent;
+            this.lblFilipino.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFilipino.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(220)))), ((int)(((byte)(190)))));
+            this.lblFilipino.Location = new System.Drawing.Point(30, 285);
+            this.lblFilipino.Name = "lblFilipino";
+            this.lblFilipino.Size = new System.Drawing.Size(58, 20);
+            this.lblFilipino.TabIndex = 9;
+            this.lblFilipino.Text = "Filipino";
             // 
-            // history
+            // txtFilipino
             // 
-            this.history.AutoSize = true;
-            this.history.Location = new System.Drawing.Point(32, 271);
-            this.history.Name = "history";
-            this.history.Size = new System.Drawing.Size(39, 13);
-            this.history.TabIndex = 9;
-            this.history.Text = "History";
+            this.txtFilipino.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(45)))), ((int)(((byte)(35)))));
+            this.txtFilipino.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtFilipino.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFilipino.ForeColor = System.Drawing.Color.White;
+            this.txtFilipino.Location = new System.Drawing.Point(110, 283);
+            this.txtFilipino.Name = "txtFilipino";
+            this.txtFilipino.Size = new System.Drawing.Size(90, 27);
+            this.txtFilipino.TabIndex = 10;
+            this.txtFilipino.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBoxEnglish
+            // lblHistory
             // 
-            this.textBoxEnglish.Location = new System.Drawing.Point(115, 148);
-            this.textBoxEnglish.Name = "textBoxEnglish";
-            this.textBoxEnglish.Size = new System.Drawing.Size(100, 20);
-            this.textBoxEnglish.TabIndex = 10;
+            this.lblHistory.AutoSize = true;
+            this.lblHistory.BackColor = System.Drawing.Color.Transparent;
+            this.lblHistory.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHistory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(220)))), ((int)(((byte)(190)))));
+            this.lblHistory.Location = new System.Drawing.Point(30, 325);
+            this.lblHistory.Name = "lblHistory";
+            this.lblHistory.Size = new System.Drawing.Size(56, 20);
+            this.lblHistory.TabIndex = 11;
+            this.lblHistory.Text = "History";
             // 
-            // textBoxMath
+            // txtHistory
             // 
-            this.textBoxMath.Location = new System.Drawing.Point(115, 178);
-            this.textBoxMath.Name = "textBoxMath";
-            this.textBoxMath.Size = new System.Drawing.Size(100, 20);
-            this.textBoxMath.TabIndex = 11;
+            this.txtHistory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(45)))), ((int)(((byte)(35)))));
+            this.txtHistory.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtHistory.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHistory.ForeColor = System.Drawing.Color.White;
+            this.txtHistory.Location = new System.Drawing.Point(110, 323);
+            this.txtHistory.Name = "txtHistory";
+            this.txtHistory.Size = new System.Drawing.Size(90, 27);
+            this.txtHistory.TabIndex = 12;
+            this.txtHistory.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBoxScience
+            // btnGenerate
             // 
-            this.textBoxScience.Location = new System.Drawing.Point(115, 208);
-            this.textBoxScience.Name = "textBoxScience";
-            this.textBoxScience.Size = new System.Drawing.Size(100, 20);
-            this.textBoxScience.TabIndex = 12;
+            this.btnGenerate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(90)))), ((int)(((byte)(65)))));
+            this.btnGenerate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGenerate.FlatAppearance.BorderSize = 0;
+            this.btnGenerate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGenerate.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGenerate.ForeColor = System.Drawing.Color.White;
+            this.btnGenerate.Location = new System.Drawing.Point(30, 375);
+            this.btnGenerate.Name = "btnGenerate";
+            this.btnGenerate.Size = new System.Drawing.Size(170, 45);
+            this.btnGenerate.TabIndex = 13;
+            this.btnGenerate.Text = "Generate Average";
+            this.btnGenerate.UseVisualStyleBackColor = false;
+            this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
+            this.btnGenerate.MouseEnter += new System.EventHandler(this.btnGenerate_MouseEnter);
+            this.btnGenerate.MouseLeave += new System.EventHandler(this.btnGenerate_MouseLeave);
             // 
-            // textBoxFilipino
+            // lblResult
             // 
-            this.textBoxFilipino.Location = new System.Drawing.Point(115, 242);
-            this.textBoxFilipino.Name = "textBoxFilipino";
-            this.textBoxFilipino.Size = new System.Drawing.Size(100, 20);
-            this.textBoxFilipino.TabIndex = 13;
+            this.lblResult.BackColor = System.Drawing.Color.Transparent;
+            this.lblResult.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResult.ForeColor = System.Drawing.Color.White;
+            this.lblResult.Location = new System.Drawing.Point(220, 190);
+            this.lblResult.Name = "lblResult";
+            this.lblResult.Size = new System.Drawing.Size(300, 100);
+            this.lblResult.TabIndex = 14;
+            this.lblResult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBoxHistory
+            // pnlBackground
             // 
-            this.textBoxHistory.Location = new System.Drawing.Point(115, 271);
-            this.textBoxHistory.Name = "textBoxHistory";
-            this.textBoxHistory.Size = new System.Drawing.Size(100, 20);
-            this.textBoxHistory.TabIndex = 14;
+            this.pnlBackground.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(30)))), ((int)(((byte)(22)))));
+            this.pnlBackground.Controls.Add(this.lblAppTitle);
+            this.pnlBackground.Controls.Add(this.lblResult);
+            this.pnlBackground.Controls.Add(this.btnGenerate);
+            this.pnlBackground.Controls.Add(this.txtHistory);
+            this.pnlBackground.Controls.Add(this.lblHistory);
+            this.pnlBackground.Controls.Add(this.txtFilipino);
+            this.pnlBackground.Controls.Add(this.lblFilipino);
+            this.pnlBackground.Controls.Add(this.txtScience);
+            this.pnlBackground.Controls.Add(this.lblScience);
+            this.pnlBackground.Controls.Add(this.txtMath);
+            this.pnlBackground.Controls.Add(this.lblMath);
+            this.pnlBackground.Controls.Add(this.txtEnglish);
+            this.pnlBackground.Controls.Add(this.lblEnglish);
+            this.pnlBackground.Controls.Add(this.lblGradesTitle);
+            this.pnlBackground.Controls.Add(this.txtName);
+            this.pnlBackground.Controls.Add(this.lblNameLabel);
+            this.pnlBackground.Location = new System.Drawing.Point(157, 20);
+            this.pnlBackground.Name = "pnlBackground";
+            this.pnlBackground.Size = new System.Drawing.Size(540, 440);
+            this.pnlBackground.TabIndex = 15;
             // 
-            // averageButton
+            // lblAppTitle
             // 
-            this.averageButton.Location = new System.Drawing.Point(72, 323);
-            this.averageButton.Name = "averageButton";
-            this.averageButton.Size = new System.Drawing.Size(118, 35);
-            this.averageButton.TabIndex = 15;
-            this.averageButton.Text = "Generate Button";
-            this.averageButton.UseVisualStyleBackColor = true;
+            this.lblAppTitle.AutoSize = true;
+            this.lblAppTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblAppTitle.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAppTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(240)))), ((int)(((byte)(200)))));
+            this.lblAppTitle.Location = new System.Drawing.Point(112, 20);
+            this.lblAppTitle.Name = "lblAppTitle";
+            this.lblAppTitle.Size = new System.Drawing.Size(316, 32);
+            this.lblAppTitle.TabIndex = 15;
+            this.lblAppTitle.Text = "Student Grade Application";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(15)))), ((int)(((byte)(12)))));
             this.BackgroundImage = global::Student_Grade_Application.Properties.Resources.forest;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(838, 441);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(854, 480);
+            this.Controls.Add(this.pnlBackground);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Student Grade Application";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.pnlBackground.ResumeLayout(false);
+            this.pnlBackground.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label name;
-        private System.Windows.Forms.Label title;
-        private System.Windows.Forms.TextBox textBoxFilipino;
-        private System.Windows.Forms.TextBox textBoxScience;
-        private System.Windows.Forms.TextBox textBoxMath;
-        private System.Windows.Forms.TextBox textBoxEnglish;
-        private System.Windows.Forms.Label history;
-        private System.Windows.Forms.Label filipino;
-        private System.Windows.Forms.Label science;
-        private System.Windows.Forms.Label math;
-        private System.Windows.Forms.Label english;
-        private System.Windows.Forms.Label grades;
-        private System.Windows.Forms.TextBox textBoxName;
-        private System.Windows.Forms.Button averageButton;
-        private System.Windows.Forms.TextBox textBoxHistory;
+        private System.Windows.Forms.Label lblNameLabel;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Label lblGradesTitle;
+        private System.Windows.Forms.Label lblEnglish;
+        private System.Windows.Forms.TextBox txtEnglish;
+        private System.Windows.Forms.Label lblMath;
+        private System.Windows.Forms.TextBox txtMath;
+        private System.Windows.Forms.Label lblScience;
+        private System.Windows.Forms.TextBox txtScience;
+        private System.Windows.Forms.Label lblFilipino;
+        private System.Windows.Forms.TextBox txtFilipino;
+        private System.Windows.Forms.Label lblHistory;
+        private System.Windows.Forms.TextBox txtHistory;
+        private System.Windows.Forms.Button btnGenerate;
+        private System.Windows.Forms.Label lblResult;
+        private System.Windows.Forms.Panel pnlBackground;
+        private System.Windows.Forms.Label lblAppTitle;
     }
 }
-
