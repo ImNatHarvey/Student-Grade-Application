@@ -201,7 +201,7 @@
             this.btnGenerate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGenerate.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerate.ForeColor = System.Drawing.Color.White;
-            this.btnGenerate.Location = new System.Drawing.Point(30, 375);
+            this.btnGenerate.Location = new System.Drawing.Point(185, 375);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(170, 45);
             this.btnGenerate.TabIndex = 13;
@@ -252,7 +252,7 @@
             this.lblAppTitle.BackColor = System.Drawing.Color.Transparent;
             this.lblAppTitle.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAppTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(240)))), ((int)(((byte)(200)))));
-            this.lblAppTitle.Location = new System.Drawing.Point(30, 20);
+            this.lblAppTitle.Location = new System.Drawing.Point(112, 20);
             this.lblAppTitle.Name = "lblAppTitle";
             this.lblAppTitle.Size = new System.Drawing.Size(316, 32);
             this.lblAppTitle.TabIndex = 15;
